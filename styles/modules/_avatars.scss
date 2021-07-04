@@ -1,6 +1,10 @@
 %avatar-base {
   display: block;
   overflow: hidden;
+  background-image: url('/assets/images/img-user-default.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
   border-radius: 50%;
 
   img {
@@ -11,13 +15,13 @@
   }
 }
 
-.avartar-24 {
+.avatar-24 {
   @extend %avatar-base;
   width: 24px;
   height: 24px;
 }
 
-.avartar-32 {
+.avatar-32 {
   @extend %avatar-base;
   width: 32px;
   height: 32px;
