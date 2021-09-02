@@ -19,6 +19,10 @@
       dd:last-child::after {
         content: none;
       }
+
+      .is-answered {
+        color: $blue;
+      }
     }
 
     .detail {
